@@ -1,6 +1,3 @@
-# cookie-stand
-Salmon cookie stand
-----------------------
 # Name Of The Project: Salmon Cookie Stand
 ## Project Author: Pedja Josifovic
 ## Description:
