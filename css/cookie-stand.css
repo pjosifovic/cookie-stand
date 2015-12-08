@@ -1,0 +1,22 @@
+
+table {
+  border-spacing: 0.7em;
+  vertical-align: baseline;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 0.5rem;
+  text-align: center;
+  border: 2px solid black;
+}
+
+th {
+  background-color: #f7f7f7;
+  font-family: "Changa One", fantasy;
+  color: #ff3333
+}
+
+td {
+  font-family: "Helvetica", sans-serif;
+  color: #3366ff;
+}
