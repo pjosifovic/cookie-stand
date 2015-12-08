@@ -1,0 +1,59 @@
+header {
+  background-color: white;
+  padding: 20px;
+}
+header p {
+  font-family: "Franklin Gothic Book", sans-serif;
+  font-size: 1.625em;
+  color: #FF3333;
+}
+
+body {
+  background-color: #f3f3f4;
+}
+
+main h2 {
+  font-family: "Franklin Gothic Book", sans-serif;
+  font-size: 1.375em;
+  font-style: italic;
+  color: black;
+}
+
+#highlights {
+  font-family: "Changa One", fantasy;
+  color: #ff3333;
+  font-size: 1em;
+}
+
+ul li {
+  font-family: "Franklin Gothic Book", sans-serif;
+  font-size: 0.625em;
+  color: black;
+}
+
+#data {
+  font-family: "Helvetica", sans-serif;
+  color: #3366ff;
+  font-size: 1em;
+}
+
+#body-text {
+  font-family: "Franklin Gothic Book", sans-serif;
+  color: #323232;
+  font-size: 0.625em;
+}
+
+main p {
+  font-family: "Franklin Gothic Book", sans-serif;
+  font-size: 0.750em;
+  color: black;
+}
+
+#table-color {
+  background-color: #ffffcc;
+}
+
+#box-color {
+  background-color: #369;
+  color: white;
+}
