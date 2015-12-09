@@ -1,4 +1,4 @@
-var hours = ['10am', '11am', '12pm', '1pm', '2pm', '3pm', '4pm', '5pm'];
+  var hours = ['10am', '11am', '12pm', '1pm', '2pm', '3pm', '4pm', '5pm'];
 var locations = ['PikePlace', 'SeaTac', 'SouthCenter', 'Bellevue', 'Alki'];
 function CookieStand(minCust, maxCust, avgCookiesPerCust, cHours, total, store) {
   this.minCust = minCust;
