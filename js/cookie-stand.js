@@ -110,8 +110,13 @@ var handleUserSubmit = function(event) {
 
      var newStore = new CookieStand(minCustHour, maxCustHour, avgCookieHour,locName);
      newStore.render();
+    //  new CookieStand(minCustHour, maxCustHour, avgCookieHour,locName).render(); you can call it like this!
     //  console.log('calling render');
 };
 
 // Event listener for submission button
 userForm.addEventListener('submit', handleUserSubmit);
+
+
+// if you have paramaters
+// userForm.addEventListener('submit', handleUserSubmit, param1, param2);
