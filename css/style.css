@@ -59,7 +59,7 @@ header section p {
 }
 
 .header li {
-  border: 1px solid #EC5454;
+  border: 2px solid #EC5454;
   list-style: none;
   width: 150px;
   color: #EC5454;
@@ -74,15 +74,12 @@ header section p {
 
 .header li:hover {
   background-color: #752A2A;
+  border: 2px solid #752A2A;
   color: white;
-  border-style: none;
+
 }
 
-,header li a[class="active"] {
-  background-color: black;
-  color: white;
-  border-style: none;
-}
+
 
 /*============= MAIN ==============*/
 
@@ -119,7 +116,7 @@ main {
   line-height: 1.2em;
 }
 
-.blogText p, .merchText p {
+.blogText p, .merchText p, .contactText p {
   font-family: "Tahoma", sans-serif;
   font-size: 1em;
   text-indent: 1em;
@@ -151,19 +148,16 @@ main {
 }
 
 
-
-
-
-
 /*=============== ASIDE =============*/
 
 main aside {
   max-width: 20%;
   color: white;
-  background-color: #A9B764;
-  height: 300px;
+  height: 100%;
   text-align: left;
   padding: 10px;
+  background-color: #A9B764;
+
 }
 
 /*main aside * {
@@ -178,6 +172,7 @@ aside h3 {
   margin-top: 0;
   line-height: 1.2em;
   padding-right: 2px;
+
 }
 
 aside p, aside ul {
@@ -247,7 +242,7 @@ footer {
   margin-right: 2em;
 }
 
-.merchText h3 {
+.merchText h3, .contactText h3 {
   margin-top: 0px;;
   font-family: "Savoye LET Plain:1.0", cursive;
   font-size: 1.6em;
@@ -261,7 +256,122 @@ footer {
 }
 
 
+/*=============== contact.html ================*/
 
-/*.merchText .sideImage img {
+.content .contactText {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   width: 100%;
+  margin-bottom: 10em;
+  border-bottom-style: none;
+}
+
+/*.contactText * {
+  border: 1px solid black;
 }*/
+
+.contactText section {
+  width: 50%;
+}
+
+.contactInfo p {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  text-indent: 0;
+}
+
+.contactImage {
+  width: 30%;
+  margin-top: 30px;
+}
+
+.contactImage img {
+  border: 1.5px solid #A9B764;
+}
+
+
+/*================== sales.html ===============*/
+
+.content .tableText {
+  border-style: none;
+  margin-bottom: 7em;
+}
+
+.tableText {
+  width: 100%;
+}
+
+/*.tableText * {
+  border: 1px solid black;
+}*/
+
+.tableText h3 {
+  font-family: "Savoye LET Plain:1.0", cursive;
+  font-size: 2em;
+  color: #A9B764;
+  text-align: left;
+  line-height: 1.2em;
+}
+
+form {
+  font-family: "Tahoma", sans-serif;
+  font-size: 1.1em;
+  /*display: flex;
+  justify-content: space-around;*/
+  margin-bottom: 1em;
+
+}
+
+form label {
+  background-color: #ED7554;
+  color: white;
+  border: 1px solid black;
+}
+
+form input {
+  border: 1px solid black;
+}
+
+form .first {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  width: 45%;
+}
+
+form .second {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  width: 45%;
+  margin-bottom: 1em;
+}
+
+form #userSubmit {
+  display: flex;
+  justify-content: flex-end;
+  background-color: #ED7554;
+  border: 1px solid black;
+}
+
+#storeData table  {
+  width: 100%;
+  margin-top: 1.3em;
+  color: white;
+}
+
+#storeData table tr, th, td {
+  border: 2px solid black;
+}
+
+
+#storeData table th {
+  background-color: #A9B764
+}
+
+#storeData td {
+  color: black;
+  background-color: #ED7554
+}
