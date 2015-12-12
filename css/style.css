@@ -1,0 +1,267 @@
+* {
+  background-repeat: no-repeat;
+}
+
+/*just for easier styling
+body * {
+  border: 1px solid black;
+}*/
+
+body {
+  max-width: 1080px;
+  margin: 0 auto ;
+  text-align: center;
+}
+
+
+/*============ HEADER ===============*/
+
+header {
+  width: 100%;
+  margin: 0 auto;
+}
+
+header section {
+  background-color: #ED7554;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+header section p {
+  margin: 0 auto;
+  color: white;
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 1.6em;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 5px;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.header img {
+  margin-left: 1em;
+}
+
+.header ul {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  width: 60%;
+}
+
+.header li {
+  border: 1px solid #EC5454;
+  list-style: none;
+  width: 150px;
+  color: #EC5454;
+}
+
+.header li a {
+  font-family: "Savoye LET Plain:1.0", cursive;
+  font-size: 1.5em;
+  text-decoration: none;
+  color: inherit;
+}
+
+.header li:hover {
+  background-color: #752A2A;
+  color: white;
+  border-style: none;
+}
+
+,header li a[class="active"] {
+  background-color: black;
+  color: white;
+  border-style: none;
+}
+
+/*============= MAIN ==============*/
+
+main {
+  background-color: #FFF0E9;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 50px;
+  flex-wrap: wrap;
+}
+
+.content {
+  max-width: 70%;
+  padding-left: 1px;
+}
+
+.content article img {
+  width: 100%;
+}
+
+.content article {
+  margin-bottom: 3em;
+  padding-bottom: 1em;
+  border-bottom: 2px solid #A9B764;
+}
+
+.blogText h3 {
+  font-family: "Savoye LET Plain:1.0", cursive;
+  font-size: 1.6em;
+  color: #A9B764;
+  text-align: left;
+  margin: 0 auto;
+  line-height: 1.2em;
+}
+
+.blogText p, .merchText p {
+  font-family: "Tahoma", sans-serif;
+  font-size: 1em;
+  text-indent: 1em;
+  color: black;
+  line-height: 1.5em;
+  text-align: left;
+}
+
+.blogText p a, .merchText a {
+  color: #EC5454;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.blogText p a:hover, .merchText a:hover {
+  color: #752A2A;
+}
+
+.blogText .blogDate  {
+  font-family: "Vedrana", monospace;
+  font-size: 0.73em;
+  color: black;
+  text-align: left;
+  text-indent: 0;
+}
+
+#lastText {
+  border-style: none;
+}
+
+
+
+
+
+
+/*=============== ASIDE =============*/
+
+main aside {
+  max-width: 20%;
+  color: white;
+  background-color: #A9B764;
+  height: 300px;
+  text-align: left;
+  padding: 10px;
+}
+
+/*main aside * {
+  border: 1px solid black;
+}*/
+
+aside h3 {
+  font-family: "Savoye LET Plain:1.0", cursive;
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 0px;
+  margin-top: 0;
+  line-height: 1.2em;
+  padding-right: 2px;
+}
+
+aside p, aside ul {
+  /*padding: 20px;*/
+  font-family: "Tahoma", sans-serif;
+  font-size: 0.9em;
+}
+
+aside ul li {
+  line-height: 1.5em;
+}
+
+
+/*------------ FOOTER --------------*/
+
+
+footer {
+  background-color: #D3ED54;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footer ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.footer li {
+  list-style: none;
+  margin-right: 25px;
+  color: black;
+}
+
+.footer li a {
+  font-family: "Savoye LET Plain:1.0", cursive;
+  font-size: 1.2em;
+  text-decoration: none;
+  color: inherit;
+}
+
+.footer li:hover {
+  color: #EC5454;
+}
+
+.footer p {
+  font-family: "Tahoma", sans-serif;
+  font-size: 0.5em;
+}
+
+
+/*============ history.html ==============*/
+
+.merchText {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+/*.merchText * {
+  border: 1px solid black;
+}*/
+
+.merchText section {
+  width: 55%;
+  margin-right: 2em;
+}
+
+.merchText h3 {
+  margin-top: 0px;;
+  font-family: "Savoye LET Plain:1.0", cursive;
+  font-size: 1.6em;
+  color: #A9B764;
+  text-align: left;
+  line-height: 1.25em;
+}
+
+.merchText p {
+  line-height: 1.2em;
+}
+
+
+
+/*.merchText .sideImage img {
+  width: 100%;
+}*/
