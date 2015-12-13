@@ -2,36 +2,105 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Salmon cookie stand</title>
-    <link rel="stylesheet" href="css/cookie-stand.css" type="css/text">
+    <title>Pat's Salmon Cookie Stand</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link href='https://fonts.googleapis.com/css?family=Gloria+Hallelujah' rel='stylesheet' type='text/css'>
+    <link rel="icon" type="image/png" href="images/favicon-32x32.png" sizes="32x32" />
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <h1>Salmon Cookie Stand</h1>
-    <h2>Calculate Daily Sales Projections</h2>
-    <h1>Using constructor notation</h1>
 
-    <form id="user-form" >
+    <header>
+      <nav class="header">
+        <img src="images/salmon.png" alt="Pat's Salmon Cookie Stand logo" />
+        <ul>
+          <li><a href="index.html">Welcome</a></li>
+          <li><a href="history.html">History</a></li>
+          <li><a href="sales.html">Sales</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <section>
+          <p>Salmon cookies made with fish, salmon cookies are delish!"</p>
+      </section>
+    </header>
 
-      <label for="locName">Store name:</label>
-      <input id="locName" type="text" placeholder="Enter store name">
+    <main>
+      <div class="content">
 
-      <label for="minCustHour">Min customers per hour:</label>
-      <input id="minCustHour" type="text" placeholder="Enter min customers per hour">
-<br>
-      <label for="maxCustHour">Max customers per hour:</label>
-      <input id="maxCustHour" type="text" placeholder="Enter max customers per hour">
+        <article class="blogText">
+          <h3>Sliced Chocolate For Sandwiches Is Now A Reality – Life Will Never Be The Same Again</h3>
+          <p class="blogDate">DEC 15th, 2015, Bored Panda</p>
+          <img src="images/sliced-choco.jpg" alt="Sliced choco" />
+          <p>
+            Doctors have been recommending chocolate in your sandwich for years, but the Japanese have finally done it!
+            Bourbon, a Japan-based company, has started to sell chocolate slices packaged like Kraft cheese singles.
+            Each pack contains five two-millimeter (0.08-inch) thick slices. Bourbon’s online shop offers bulk orders consisting of twelve,
+            five-slice packs for 3,240 yen (US$27). The “nama” chocolate used to make the slices is soft and is more intense
+            in flavor than milk chocolate. And for our Danish readers: yes, we know of your Pålægschokolade,
+            but it’s not soft, is it? More info at their <a href="http://shop.bourbon.jp/" target="_blank">ONLINE SHOP</a>
+        </article>
 
-      <label for="avgCookieHour">Avg cookies per customer:</label>
-      <input id="avgCookieHour" type="text" placeholder="Cookies per customer">
+        <article class="blogText">
+          <h3>These Nut-Hugging Bear Cookies Are Almost Too Cute To Eat</h3>
+          <p class="blogDate">DEC 09th, 2015, Bored Panda</p>
+          <img src="images/bear-cookie.jpg" alt="Bear shaped cookies" />
+          <p>
+            Maa Tamagosan, a French-trained Japanese cook, just might have created a cookie that is too cute to eat.
+            Her cookies look like cute little teddy bears clutching tasty nuts close to their hearts.
+            Luckily for us, Maa shared the recipe for these cookies on her blog so that the rest of the world can wrestle
+            with the question of whether or not one can eat something so cute. If you have a nut allergy.
+            Maa’s original recipe is written in Japanese.
+          </p>
+        </article>
 
-      <input id="userSubmit" type="submit" value="Submit">
+        <article id="lastText" class="blogText">
+          <h3>Issaquah salmon festival 2015</h3>
+          <p class="blogDate">DEC 06th, 2015, Pat Summers</p>
+          <img src="images/issaquah-salmon-fest.jpg" target="_blank" alt="Issaquah salmon fest" />
+          <p>
+            We are honored to announce that the Snoqualmie Tribe and Casino are back for another year
+            as our Title Spawnsor! This is a great partnership that we are excited to continue.
+            They share our commitment to protecting the spawning salmon and creeks in which they live.
+            Come up and visit Pat's salmon cookie shop at this years Issaquah salmon festival.
+            Click here to find out more about: <a href="http://www.salmondays.org/" target="_blank">Issaquah salmon fest</a>
+          </p>
+          <p class="aloneText"><a href="http://gph.is/1GRikO6" target="_blank">How people feel about our cookies</a></p>
+        </article>
 
-    </form>
-<br>
+      </div>
 
-    <section id="storeData">
+      <aside>
+        <h3>List of our current stores:</h3>
+        <p>
+          This is the list of locations where you can find our delicious treats.
+          More locations coming soon to your neighborhood. Open every day from 10am - 6pm!
+        </p>
+        <ul>
+          <li>Pike Place Market</li>
+          <li>SeaTac Airport</li>
+          <li>Southcenter Mall</li>
+          <li>Bellevue</li>
+          <li>Alki beach, West Seattle</li>
+        </ul>
+      </aside>
 
-    </section>
-    <script src="js/cookie-stand.js"></script>
+    </main>
+
+    <footer>
+      <nav class="footer">
+        <ul>
+          <li><a href="index.html">Welcome</a></li>
+          <li><a href="history.html">History</a></li>
+          <li><a href="sales.html">Sales</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <section>
+        <img src="images/salmon-mini.png" alt="Pat's Salmon Cookie Stand logo" />
+      </section>
+      <p>Pat’s Salmon Cookie Stand, LLC Locally baked since 2015</p>
+    </footer>
   </body>
 </html>

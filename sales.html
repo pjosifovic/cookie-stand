@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Pat's Salmon Cookie Stand</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- <link rel="stylesheet" href="css/skeleton.css"> -->
+    <link href='https://fonts.googleapis.com/css?family=Gloria+Hallelujah' rel='stylesheet' type='text/css'>
+    <link rel="icon" type="image/png" href="images/favicon-32x32.png" sizes="32x32" />
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+
+    <header>
+      <nav class="header">
+        <img src="images/salmon.png" alt="Pat's Salmon Cookie Stand logo" />
+        <ul>
+          <li><a href="index.html">Welcome</a></li>
+          <li><a href="history.html">History</a></li>
+          <li><a href="sales.html">Sales</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <section>
+          <p>Salmon cookies made with fish, salmon cookies are delish!"</p>
+      </section>
+    </header>
+
+    <main>
+      <div class="content">
+        <article class="tableText">
+          <h3>Use this form to calculate daily cookie projections</h3>
+          <form id="user-form" >
+            <section class="first">
+              <label for="locName">Store name:</label>
+              <input id="locName" type="text" placeholder="Enter store name">
+              <label for="minCustHour">Min customers per hour:</label>
+              <input id="minCustHour" type="text" placeholder="Enter min customers per hour">
+            </section>
+            <section class="second">
+              <label for="maxCustHour">Max customers per hour:</label>
+              <input id="maxCustHour" type="text" placeholder="Enter max customers per hour">
+              <label for="avgCookieHour">Avg cookies per customer:</label>
+              <input id="avgCookieHour" type="text" placeholder="Cookies per customer">
+            </section>
+          <input id="userSubmit" type="submit" value="Submit">
+          </form>
+          <section id="storeData"></section>
+        </article>
+      </div>
+    </main>
+
+    <footer>
+      <nav class="footer">
+        <ul>
+          <li><a href="index.html">Welcome</a></li>
+          <li><a href="history.html">History</a></li>
+          <li><a href="sales.html">Sales</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <section>
+        <img src="images/salmon-mini.png" alt="Pat's Salmon Cookie Stand logo" />
+      </section>
+      <p>Pat’s Salmon Cookie Stand, LLC Locally baked since 2015</p>
+    </footer>
+
+    <script src="js/cookie-stand.js"></script>
+  </body>
+</html>
