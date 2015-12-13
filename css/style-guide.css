@@ -1,28 +1,77 @@
-header {
-  background-color: white;
-  padding: 20px;
-}
-header p {
-  font-family: "Franklin Gothic Book", sans-serif;
-  font-size: 1.625em;
-  color: #FF3333;
+* {
+  background-repeat: no-repeat;
 }
 
 body {
-  background-color: #f3f3f4;
+  margin: 0 auto;
+  text-align: left;
+  max-width: 1080px;
+  padding-left: 10px;
 }
 
-main h2 {
+
+/*header {
+  background-color: white;
+}*/
+
+header * {
+  margin: 5px 0;
+  height: 2em;
+  padding: 3px 0 3px 3px;;
+}
+.title {
   font-family: "Franklin Gothic Book", sans-serif;
-  font-size: 1.375em;
-  font-style: italic;
+  font-size: 1.625em;
+  color: #752A2A;
+}
+
+header .nav {
+  background-color: white;
+  border: 2px solid #EC5454;
+  /*font-family: 'Gloria Hallelujah', cursive;*/
+  /*font-size: 1.6em;*/
+  color: #EC5454;
+}
+
+header .hover {
+  background-color: #752A2A;
+  color: white;
+}
+
+header .slogan {
+  background-color: #ED7554;
+  color: white;
+}
+
+header .mainColor {
+  background-color: #FFF0E9;
   color: black;
 }
 
-#highlights {
-  font-family: "Changa One", fantasy;
-  color: #ff3333;
-  font-size: 1em;
+header .asideColor {
+  background-color: #A9B764;
+  color: black;
+}
+
+header .footerColor {
+  background-color: #D3ED54;
+  color: black;
+}
+
+header .borderColor {
+  border-bottom: 2px solid #A9B764;
+}
+
+/*========== TYPOGRAPHY ===========*/
+.content {
+  margin-top: 35px;
+}
+
+.content h2 {
+  font-family: "Franklin Gothic Book", sans-serif;
+  font-size: 1.6em;
+  font-style: italic;
+  color: black;
 }
 
 ul li {
@@ -31,29 +80,53 @@ ul li {
   color: black;
 }
 
-#data {
-  font-family: "Helvetica", sans-serif;
-  color: #3366ff;
+.content h4 {
+  margin: 0 auto;
+}
+
+.navFont {
+  font-family: "Savoye LET Plain:1.0",cursive;
+  color: #EC5454;
+  font-size: 1.5em;
+}
+
+.sloganFont {
+  color: black;
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 1.6em;
+}
+
+.bodyHeadFont {
+  font-family: "Savoye LET Plain:1.0", cursive;
+  font-size: 1.6em;
+  color: #A9B764;
+}
+
+
+.bodyMerchContact {
+  font-family: "Tahoma", sans-serif;
   font-size: 1em;
-}
-
-#body-text {
-  font-family: "Franklin Gothic Book", sans-serif;
-  color: #323232;
-  font-size: 0.625em;
-}
-
-main p {
-  font-family: "Franklin Gothic Book", sans-serif;
-  font-size: 0.750em;
   color: black;
 }
 
-#table-color {
-  background-color: #ffffcc;
+.bodyMerchContact a:hover {
+  color: #EC5454;
 }
 
-#box-color {
-  background-color: #369;
-  color: white;
+.dateFont {
+  font-family: "Vedrana", monospace;
+  font-size: 0.73em;
+  color: black;
+}
+
+.footerNavFont {
+  font-family: "Savoye LET Plain:1.0", cursive;
+  font-size: 1.2em;
+  color: black;
+}
+
+.footerFont {
+  font-family: "Tahoma", sans-serif;
+  font-size: 0.5em;
+  color: black;
 }

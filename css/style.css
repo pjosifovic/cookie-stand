@@ -119,8 +119,8 @@ main {
 .blogText p, .merchText p, .contactText p {
   font-family: "Tahoma", sans-serif;
   font-size: 1em;
-  text-indent: 1em;
   color: black;
+  text-indent: 1em;
   line-height: 1.5em;
   text-align: left;
 }
