@@ -4,16 +4,16 @@ module.exports = function(grunt) {
 grunt.initConfig({
   pkg: grunt.file.readJSON('package.json'),
 
-  //Compressing js files for FINAl grunt build
+  clean: ['js/script.min.js'],
+
   uglify: {
     build: {
       src: 'js/*.js',
       dest: 'js/script.min.js'
     },
-    //Compressing js files during dev
     dev: {
       options: {
-        beautify: true,
+        beautify: false,
         mangle: false,
         compress: false,
         preserveComments: 'all'
@@ -21,9 +21,8 @@ grunt.initConfig({
       src: 'js/*.js',
       dest: 'js/script.min.js'
     }
-  }
+  },
 
-  // Watch tasks
   watch: {
     js: {
       files: ['js/*.js'],
@@ -37,6 +36,8 @@ grunt.initConfig({
 // Load the plugins
 grunt.loadNpmTasks('grunt-contrib-uglify');
 grunt.loadNpmTasks('grunt-contrib-watch');
+grunt.loadNpmTasks('grunt-contrib-clean');
+
 
 // Register task(s)
 grunt.registerTask('default',['uglify:dev']);
