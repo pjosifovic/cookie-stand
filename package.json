@@ -1,0 +1,19 @@
+{
+  "name": "grunt",
+  "version": "1.0.0",
+  "description": "grunt demo",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pjosifovic/cookie-stand.git"
+  },
+  "author": "Pedja Josifovic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pjosifovic/cookie-stand/issues"
+  },
+  "homepage": "https://github.com/pjosifovic/cookie-stand#readme"
+}
