@@ -1,5 +1,5 @@
 {
-  "name": "grunt",
+  "name": "grunt-demo",
   "version": "1.0.0",
   "description": "grunt demo",
   "main": "index.html",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/pjosifovic/cookie-stand/issues"
   },
-  "homepage": "https://github.com/pjosifovic/cookie-stand#readme"
+  "homepage": "https://github.com/pjosifovic/cookie-stand#readme",
+  "devDependencies": {
+    "grunt": "^0.4.5"
+  }
 }
