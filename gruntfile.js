@@ -13,7 +13,7 @@ grunt.initConfig({
     //Compressing js files during dev
     dev: {
       options: {
-        beaitify: true,
+        beautify: true,
         mangle: false,
         compress: false,
         preserveComments: 'all'
@@ -27,7 +27,7 @@ grunt.initConfig({
   watch: {
     js: {
       files: ['js/*.js'],
-      tasks: [uglify:dev]
+      tasks: ['uglify:dev']
     }
   }
 
@@ -39,6 +39,6 @@ grunt.loadNpmTasks('grunt-contrib-uglify');
 grunt.loadNpmTasks('grunt-contrib-watch');
 
 // Register task(s)
-grunt.registerTask('default',['uglify:dev', 'watch', ]);
-grunt.registerTask('build',['uglify:build', ]);
+grunt.registerTask('default',['uglify:dev']);
+grunt.registerTask('build',['uglify:build']);
 };
